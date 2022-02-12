@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ganβ-おみくじ</title>
+  </head>
+  <body>
+    <header>
+    <h1 class="title">タイトル</h1>
+    <nav class="nav">
+      <ul class="menu-group">
+        <li class="menu-item"><a href="#">項目1</a></li>
+        <li class="menu-item"><a href="#">項目2</a></li>
+        <li class="menu-item"><a href="#">項目3</a></li>
+        <li class="menu-item"><a href="#">項目4</a></li>
+        <li class="menu-item"><a href="#">項目5</a></li>
+      </ul>
+    </nav>
+  </header>
+    <p>ようこそ<span id="name">テスト</span>さん！</p>
+    <p>あなたのledgendは<span id="result">大吉</span>です！</p>    <img src="omikuji.png">
+    <script type="text/javascript" src="omikuji.js"></script>
+  </body>
+</html>
