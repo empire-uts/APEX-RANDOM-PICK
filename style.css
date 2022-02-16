@@ -8,3 +8,11 @@ img {
 #result {
   color: green;
 }
+
+header{
+  background-color: aqua;
+}
+
+body{
+background: linear-gradient(-135deg, #FF0461, #9941D8);
+}
