@@ -68,3 +68,9 @@ if (rand == 19) {
         userresult = "マッドマギー";
     }
 document.getElementById("result").innerHTML = userresult;
+
+
+
+
+
+
