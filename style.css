@@ -1,18 +1,40 @@
-img {
-  height: 100px;
-}
-#name {
-  color: blue;
-}
-
-#result {
-  color: green;
+body{
+  width: auto;
+  height: auto;
+background: radial-gradient(#FF0461, #9941D8);
 }
 
 header{
-  background-color: aqua;
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  text-align:  center;
 }
 
-body{
-background: linear-gradient(-135deg, #FF0461, #9941D8);
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  width: 100%;
+  margin: 0%;
 }
+
+
+
+.nav li{
+  text-align:  center;
+  background-color: transparent;
+  list-style: none;
+  float: left;
+  
+ 
+}
+
+h1{
+  float: none;
+  margin: 300px ;
+  background-color: transparent;
+  text-align:  center;
+}
+
+
+
