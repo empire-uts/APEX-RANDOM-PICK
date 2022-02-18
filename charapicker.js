@@ -1,76 +1,25 @@
-let name;
-let username;
-let userresult;
+let buttonchange = charapicker.value.innerHTML = "retry!"
+let userresult = greeting.charactername[Math.floor( Math.random() * 20)];
+
+
+const charactername = ["レイス","パスファインダー","ジブラルタル","ライフライン","バンガロール",
+"オクタン","ワットソン","コースティック","クリプト","ブラッドハウンド","ミラージュ","レブナント",
+"ローバ","ホライゾン","ヴァルキリー","ランパート","シア","アッシュ","ヒューズ","マッドマギー"]
+
+
+let rand = Math.floor( Math.random() * 20);
 
 
 
 
-let rand = Math.floor( Math.random() * 18);
-if (rand == 0) {
-  userresult = "レイス";
-}
-if (rand == 1) {
-  userresult = "パスファインダー";
-}
-if (rand == 2) {
-  userresult = "ジブラルタル";
-}
-if (rand == 3) {
-  userresult = "ライフライン";
-}
-if (rand == 4) {
-  userresult = "バンガロール";
-}
-if (rand == 5) {
-    userresult = "オクタン";
-}
-if (rand == 6) {
-    userresult = "ワットソン";
-}
-if (rand == 7) {
-    userresult = "コースティック";
-}
-if (rand == 8) {
-    userresult = "クリプト";
-}
-if (rand == 9) {
-    userresult = "ブラッドハウンド";
+const button = document.querySelector('input');
+button.addEventListener('click', updateButton);
+
+function updateButton() {
+  if (button.value === 'start!') {
+    button.value = 'retry';
+    document.getElementById(charapicker) = userresult;
+  } else {
+    document.getElementById(charapicker) = userresult;
   }
-
-if (rand == 10) {
-    userresult = "ミラージュ";
-  }
-if (rand == 11) {
-      userresult = "レブナント";
-  }
-if (rand == 12) {
-      userresult = "ローバ";
-  }
-if (rand == 13) {
-      userresult = "ホライゾン";
-  }
-if (rand == 14) {
-      userresult = "ヴァルキリー";
-  }
-if (rand == 15) {
-      userresult = "ランパート";
-  }
-if (rand == 16) {
-        userresult = "シア";
-      }
-if (rand == 17) {
-          userresult = "アッシュ";
-      }
-if (rand == 18) {
-          userresult = "ヒューズ";
-      }
-if (rand == 19) {
-        userresult = "マッドマギー";
-    }
-document.getElementById("charapicker").innerHTML = userresult;
-
-
-ff
-
-
-
+}

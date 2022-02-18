@@ -1,7 +1,8 @@
 body{
   width: auto;
   height: auto;
-background: radial-gradient(#FF0461, #9941D8);
+  background: radial-gradient(#FF0461, #9941D8);
+  text-align:  center;
 }
 
 header{
@@ -33,7 +34,6 @@ h1{
   float: none;
   margin: 300px ;
   background-color: transparent;
-  text-align:  center;
 }
 
 
