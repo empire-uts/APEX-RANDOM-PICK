@@ -70,7 +70,7 @@ if (rand == 19) {
 document.getElementById("charapicker").innerHTML = userresult;
 
 
-
+ff
 
 
 
