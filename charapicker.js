@@ -67,7 +67,7 @@ if (rand == 18) {
 if (rand == 19) {
         userresult = "マッドマギー";
     }
-document.getElementById("result").innerHTML = userresult;
+document.getElementById("charapicker").innerHTML = userresult;
 
 
 
