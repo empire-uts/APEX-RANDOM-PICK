@@ -19,7 +19,11 @@ header{
   
 }
 
-
+.charapicker{
+  width: 200px;
+  height: 50px;
+  font-size: large;
+}
 
 .nav li{
   text-align:  center;
